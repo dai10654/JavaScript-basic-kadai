@@ -14,5 +14,5 @@ if (num % 3 === 0 && num % 5 === 0) {
   console.log("5の倍数です");
 } else {
   // どれにも当てはまらない場合
-  console.log("3の倍数でも5の倍数でもありません");
+  console.log(num);
 }
