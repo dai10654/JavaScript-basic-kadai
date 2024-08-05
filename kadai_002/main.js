@@ -89,7 +89,7 @@ const gameOver = id => {
     if (result == true) {
       window.location.reload();
     }
-  }, 500);
+  }, 1000);
 };
 
   
