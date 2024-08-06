@@ -83,13 +83,13 @@ const gameOver = id => {
   untypedfield.style.display = 'none';
   typedfield.textContent = 'タイムアップ！';
 
-  // 少し遅延を入れてconfirmを表示（例えば500ms後）
+  // 少し遅延を入れてconfirmを表示
   setTimeout(() => {
     const result = confirm(rankCheck(score));
-    if (result == true) {
+    if (result === true) {
       window.location.reload();
     }
-  }, 1000);
+  }, 10); // ここで10ミリ秒の遅延を設定
 };
 
   
